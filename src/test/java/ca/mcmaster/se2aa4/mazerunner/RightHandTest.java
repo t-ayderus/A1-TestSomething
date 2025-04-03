@@ -8,8 +8,6 @@ import org.junit.jupiter.api.Test;
 public class RightHandTest{
     private Maze maze;
     private RightHand rightHand;
-    private Player player;
-    private Observer observer;
 
     @BeforeEach
     public void setUp(){
