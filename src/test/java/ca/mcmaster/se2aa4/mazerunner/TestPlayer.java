@@ -19,7 +19,7 @@ public class TestPlayer{
     @Test
     public boolean testFollowPath(){
         this.setUp();
-        assertEquals(true, player.followPath("FFFFFFF"));
+        assertEquals(true, player.followPath("FFFFFFF", maze.getEntrance() ));
     }
 
 }
